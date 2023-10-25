@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>UPLOAD FORM</title>
+    <link href="{{url_for('static', filename='style.css')}}" rel="stylesheet">
+</head>
+<body>
+    <h1>UPLOAD FORM</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="up_photo">
+        <br>
+        <input type="submit" value="Upload File" name="submit">
+    </form>
+</body>
+</html>

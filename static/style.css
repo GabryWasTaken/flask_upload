@@ -1,0 +1,64 @@
+/* Set the background color of the page */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  
+  /* Style the form */
+  form {
+    margin: 50px auto;
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the file input */
+  input[type="file"] {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style the confirmation message */
+  p {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  
+  /* Style the link */
+  a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    color: #4CAF50;
+  }
+  
+  /* Style the link on hover */
+  a:hover {
+    color: #3e8e41;
+  }
